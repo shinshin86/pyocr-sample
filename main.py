@@ -36,7 +36,7 @@ except Exception as e:
     print("ERROR: TesseractError")
     print(e)
     print("======> Traceback")
-    print(traceback.format_exc()) 
+    print(traceback.format_exc())
     sys.exit(1)
 
 print("======> FINISH")
