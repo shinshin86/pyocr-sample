@@ -5,8 +5,13 @@ verify_ssl = true
 
 [scripts]
 start = "python3 main.py"
+fmt = "autopep8 --in-place --aggressive --aggressive main.py"
+lint = "flake8 --show-source ."
 
 [dev-packages]
+flake8 = "*"
+autopep8 = "*"
+flake8-import-order = "*"
 
 [packages]
 pyocr = "*"
