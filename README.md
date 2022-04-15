@@ -17,8 +17,6 @@ And the OCR engine, [Tesseract](https://github.com/tesseract-ocr/tesseract), mus
 pipenv run start {target image path} {read lang name}
 ```
 
-
-
 Example
 
 ```bash
@@ -26,3 +24,8 @@ Example
 pipenv run start test.jpg jpn
 ```
 
+Results can also be exported to a text file.
+
+```sh
+pipenv run start test.jpg jpn output.txt
+```
