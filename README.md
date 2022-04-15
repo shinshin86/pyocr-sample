@@ -1,8 +1,15 @@
 # pyocr-sample
 
-pyocr sample
+pyocr sample.  
+This project uses pipenv.
 
+## Setup
 
+```sh
+pipenv install
+```
+
+And the OCR engine, [Tesseract](https://github.com/tesseract-ocr/tesseract), must be installed.
 
 ## Using
 
